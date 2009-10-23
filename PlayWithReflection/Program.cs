@@ -30,6 +30,26 @@ namespace PlayWithReflection
             //GettingTypeNames(typeof(IList<>));
             //GettingTypeNames(typeof(IList<int>));
 
+            //foreach (var interfaceObj in typeof(IList<int>).GetInterfaces())
+            //{
+            //    // ICollection<> , IEnmerable<>, IEmurable
+            //    interfaceObj.FullName.OutputToConsole();
+            //}     
+
+            Type openGenreic = typeof(List<>);
+            Type closeGeneric = openGenreic.MakeGenericType(typeof(int));
+
+            IList<int> intList = Activator.CreateInstance(closeGeneric) as List<int>;
+
+            for (int i = 0; i < 3; i++)
+            {
+                intList.Add(i * i);
+            }
+
+            intList.Count.ToString().OutputToConsole();
+
+
+
             Console.ReadKey();
         }
 
