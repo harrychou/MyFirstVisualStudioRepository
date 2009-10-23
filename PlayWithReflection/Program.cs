@@ -17,6 +17,7 @@ namespace PlayWithReflection
             Console.WriteLine(format, s);
         }
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -24,11 +25,10 @@ namespace PlayWithReflection
             // GettingTypesConstructorsAndParameters();
             // GetTypesFromMsCorLib();
 
-            GettingTypeNames(typeof(Environment));
-            GettingTypeNames(typeof(Environment.SpecialFolder));
-            GettingTypeNames(typeof(IList<>));
-
-            GettingTypeNames(typeof(IList<int>));
+            //GettingTypeNames(typeof(Environment));
+            //GettingTypeNames(typeof(Environment.SpecialFolder));
+            //GettingTypeNames(typeof(IList<>));
+            //GettingTypeNames(typeof(IList<int>));
 
             Console.ReadKey();
         }

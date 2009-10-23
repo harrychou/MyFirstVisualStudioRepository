@@ -16,7 +16,9 @@ namespace CreateYourOwnORM
         {
         }
 
-        public ColumnInfo(MetaDataStore store, string name, Type dotNetType, DbType dbType, PropertyInfo propertyInfo)
+        public ColumnInfo(
+            MetaDataStore store, string name, Type dotNetType, 
+            DbType dbType, PropertyInfo propertyInfo)
             : base(store)
         {
             Name = name;
