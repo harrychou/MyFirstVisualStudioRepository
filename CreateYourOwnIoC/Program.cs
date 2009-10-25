@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*******************************
+ * Code adopted from Paul's post 
+ * http://adventuresdotnet.blogspot.com/2009/09/creating-your-own-ioc-container.html
+ * *******************************/
+using System;
 using System.Linq;
 using System.Text;
 

@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*******************************
+ * Code adopted from Davy Brion's posts 
+ * http://davybrion.com/blog/2009/08/build-your-own-data-access-layer-series/
+ * *******************************/
+
+using System;
 using System.Data;
 using System.Data.SqlClient;
 

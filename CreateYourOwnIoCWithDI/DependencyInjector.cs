@@ -1,7 +1,12 @@
+/*******************************
+ * Code adopted from Paul's post 
+ * http://adventuresdotnet.blogspot.com/2009/09/creating-your-own-ioc-container-part-2.html
+ * *******************************/
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+
 
 namespace CreateYourOwnIoCWithDI
 {
